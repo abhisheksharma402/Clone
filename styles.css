@@ -1,0 +1,187 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+nav{
+    padding: 0;
+    background-color: #fff !important;
+    border-bottom: 1px solid;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+    color: #333!important;
+}
+
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.navbar-toggler{
+    background-color: rgb(110, 108, 108, 0.5);
+    color: #fff;
+    
+}
+
+/* .navbar-toggler-icon{
+    display: inline-block;
+    color: rgb(189, 186, 186);
+} */
+
+.btn-primary{
+    background-color: #00a5ec;
+    border: none;
+    border-radius: 3px;
+    color: #fff!important;
+    font-weight: bold;
+    
+}
+
+.btn-outline-primary{
+    border-color: #00a5ec!important;
+    color: #008bdc;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+#search-bar{
+    text-align: center;
+}
+
+.input-group{
+    justify-content: center;
+    top: 50px;
+    width: 100%;
+}
+
+.form-control{
+    width: 300px;
+    padding: 10px!important;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    top: 100px;
+    /* height: 493.13px; */
+    margin-bottom: 140px;
+    
+}
+
+.carousel-item img{
+    border-radius: 30px;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    height: 571.26px;
+}
+
+
+#int{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.categories{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.categories::-webkit-scrollbar { width: 0 !important }
+
+.categories div{
+    /* padding: 10px;
+    flex: 0 0 auto; */
+    width: 100%;
+    text-align: center;
+}
+
+
+.categories div p{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.categories div:hover{
+    /* border: 1px solid #fff; */
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+     
+}
+
+#jobs{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#jobs div{
+    width: 50%;
+}
+
+#jobs div:hover{
+    width: 50%;
+    box-shadow: none;
+}
+
+footer{
+    background-color: #333;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+
+.foot-body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.foot-col{
+    margin-bottom: 10px;
+}
+
+.foot-col ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.foot-col ul li a{
+    color: #fff;
+}
+
+.btn-outline-secondary{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.btn-outline-secondary:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.contact a{
+    margin-right: 20px;
+}
+
+.social{
+    font-size: 20px;
+    color: #fff;
+}
+.social:hover{
+    color: #fff;
+}
+
+.copy{
+    float: right;
+}
